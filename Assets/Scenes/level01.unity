@@ -224,7 +224,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84715353375dceb46b8bcd3ac0b96861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedFactor: 3
+  SpeedFactor: 5
+  LimitTop: 4
+  LimitBottom: -4
+  LimitLeft: -8
+  LimitRight: 8
 --- !u!212 &1694239646
 SpriteRenderer:
   m_ObjectHideFlags: 0
