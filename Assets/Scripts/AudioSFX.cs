@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿    
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -6,8 +7,7 @@ using System;
 [Serializable]
 public class AudioSFX 
 {
-   public AudioClip coinPickup;
-   public AudioClip fail;
-   
+    public AudioClip coinPickup;
+    public AudioClip fail;
+    public AudioClip levelComplete;
 }
- 
